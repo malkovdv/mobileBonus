@@ -8,7 +8,7 @@ public class Main {
             bonus = upAmmount / 100;
         } else {
             bonus = 0;
-            }
+        }
 
         int totalBalance = balance + upAmmount + bonus;
 
@@ -18,10 +18,5 @@ public class Main {
         System.out.println("Итоговый счёт: " + totalBalance + " руб.");
 
 
-
-
-
-
-
     }
-    }
+}
